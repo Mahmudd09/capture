@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+img{
+	border:0;
+}
+ul , ol{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+	font-family:"OpenSans"
+}
+.fix{
+	overflow:hidden;
+}
+.clr{
+	clear:both;
+}
+.full_scrn{
+	width:100%;
+}
+.str{
+	width:1100px;
+	margin:0px auto;
+}
+.hdr_area{
+	background:#43b97b;
+}
+.hdr_l{
+	float:left;
+	width:600px;
+}
+.hdr_l img{
+	float:left;
+	padding: 50px 60px 50px 0px;
+}
+.hdr_l ul li{
+	float:left;
+	padding: 50px 45px 50px 20px;
+}
+.hdr_l a{
+	color: #FFF;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+.hdr_r{
+	float: right;
+	width: 250px;
+	text-align: right;
+	padding: 40px 0px;
+}
+.hdr_r i{
+	background: #FFF none repeat scroll 0% 0%;
+	text-align: center;
+	padding: 15px;
+	border-radius: 40px;
+	margin-right: 20px;
+	color: #3B9E69;
+}
+.slider_area{
+	background:url("../images/bannar.png") no-repeat left top;
+	background-size:cover;
+}
+.slider_content{
+	padding: 170px 0px 0px 84px;
+}
+.slider_content h2{
+	color: #525252;
+	font-size: 34px;
+	font-weight: bold;
+}
+.slider_content p{
+	color: #6E6C6C;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 45px 0px 42px 0px;
+}
+.slid_btn{
+	float: left;
+	margin-right: 20px;
+	padding-bottom: 180px;
+	position: relative;
+	width: 255px;
+}
+.slid_btn button{
+	background: transparent none repeat scroll 0% 0%;
+	border: 2px solid #525252;
+	padding: 20px 34px;
+	cursor:pointer;
+	margin-right:20px;
+	position:relative;
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:700;
+	color:#525252;
+}
+.slid_btn  i{
+	padding-right: 20px;
+	color:gray;
+}
+.social_area{
+	background:#f3f3f3;
+}
+.social_main ul li{
+	float: left;
+	padding: 30px;
+	text-align: center;
+	width: 19%;
+}
+.social_main ul li:hover{
+	background:#eeeeee;
+}
+.capture_area{
+	background:#faf9f9;
+}
+.capture_main{
+	padding-top:100px;
+}
+.capture_l{
+	float: left;
+	margin-bottom: 100px;
+	padding-left: 88px;
+	padding-right: 85px;
+	width: 360px;
+}
+.capture_r{
+	float: left;
+	padding-left: 85px;
+	width: 450px;
+}
+.capture_r h2{
+	font-size:34px;
+	color:#525151;
+}
+.capture_r p{
+	color: #767272;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 23px;
+	padding: 40px 0 60px;
+}
+.capture_r ul li{
+	line-height:30px;
+}
+.capture_r ul li a{
+	color: #6d6c6c;
+	font-size: 16px;
+	padding-left: 23px;
+}
+.capture_r i{
+	color: gray;
+}
+.capture_r button{
+	background: transparent none repeat scroll 0 0;
+	border: 2px solid black;
+	color: #525252;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 60px;
+	padding: 20px 60px;
+}
+.capture_r button i{
+	margin-right:20px;
+}
+.capture_r span{
+	font-size:16px;
+	color:#636363;
+	margin-left:30px;
+}
+.promo_area{
+	background:#42bc7c;
+}
+.promo_main{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	text-align: center;
+}
+.box{
+	float: left;
+	padding: 0 80px 30px 0;
+}
+.box i{
+	color:#fff;
+	font-size:20px;
+}
+.box h3{
+	color: #fff;
+	font-size: 20px;
+	padding: 50px 0 40px;
+	text-transform: uppercase;
+}
+.box p{
+	color: #e1f7eb;
+	line-height: 20px;
+	font-size:16px;
+}
+.programmar_area{
+	background:#faf9f9;
+}
+.programmar_main{
+	text-align:center;
+	padding-top:100px;
+}
+.programmar_main p{
+	color: #767272;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 25px;
+}
+.programmar_main h3{
+	color: #4b4848;
+	font-size: 16px;
+	padding-top: 50px;
+}
+.programmar_main span{
+	color:#6f6d6d;
+	font-size:14px;
+}
+.programmar_main i{
+	font-size: 25px;
+	margin: 10px;
+	padding: 40px 0 100px;
+	color:#e0dede;
+}
+.join_us{
+	background:#43ba7b;
+}
+.join_main{
+	padding: 100px 0px;
+	text-align: center;
+}
+.join_main h2{
+	font-size:20px;
+	color:#fff;
+	padding-bottom:55px;
+}
+.join_main input[type="email"]{
+	border: medium none;
+	border-radius: 5px;
+	color: #41c17d;
+	height: 50px;
+	text-align: center;
+	width: 360px;
+}
+.join_main button{
+	background: transparent none repeat scroll 0 0;
+	border: medium none;
+	cursor:pointer;
+}
+.join_main i{
+	color: #43ba7b;
+	margin-left: -75px;
+}
+.copy_area{
+	background:#faf9f9;
+}
+.copy_main{
+	padding-bottom: 80px;
+	text-align: center;
+}
+.copy_main i{
+	color: #dddddd;
+	font-size: 45px;
+	margin-right: 65px;
+	padding-bottom: 60px;
+	padding-top: 80px;
+}
+.copy_main p{
+	color:#565555;
+	font-size:14px;
+}
+
